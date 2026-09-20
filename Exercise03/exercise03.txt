@@ -1,1 +1,1 @@
-
+In #pragma omp master only the master thread that mean thread 0 run the single block but while doing that other threads are not waiting for it.

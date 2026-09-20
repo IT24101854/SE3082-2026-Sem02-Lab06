@@ -1,1 +1,2 @@
-
+In here only outer loop is parallelized so there will the 5 threads assign to each r and and each r run the k 10 times.
+ in collapse(2) combine the iterations spaces in 2 nested loops so it has totally 50 iteration which distributed among available threads so it improve load balancing.

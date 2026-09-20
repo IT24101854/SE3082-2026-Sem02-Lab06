@@ -1,1 +1,2 @@
-
+In here by #pragma omp single one thread run this code block and it does not have to be the thread 0. So in here also have a barrier. when a thread run a single block others have to wait until it works done.
+      So in this code thread 3 run the single block and other wait until it done.

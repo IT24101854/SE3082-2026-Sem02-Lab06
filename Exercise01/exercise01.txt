@@ -1,0 +1,2 @@
+#pragma omp barrier create a synchronization point in here. Each thread must wait until everyone come to the barrier. In this code firstly all the threads print their threads number then they wait all the threads come at the barrier.
+    first one to arrive at the barrier is thread 0 then it print "Hi again from thread # 0" after that thread 2 came, then thread 3 and lastly come thread 1.
